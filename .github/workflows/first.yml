@@ -8,4 +8,4 @@ jobs:
     - name:checkout code
       uses:action/checkout@v4
     - name: print build started
-      run:echo "build started"
+      run: echo "build started"
